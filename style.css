@@ -1,12 +1,18 @@
+body{
+    background-color: #111A28;
+}
 .grid-system{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
+    grid-gap: 2px;
 }
 
 .grid {
-    padding: 30px 40px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #00CF5D;
+    font-size: 18px;
+    color: #fff;
 }
 .input-box {
     grid-column-start: 1;
