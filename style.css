@@ -11,9 +11,10 @@ body{
     cursor: pointer;
     text-align: center;
     border: 2px solid #00CF5D;
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
 }
+
 .input-box {
     grid-column-start: 1;
     grid-column-end: 5;
